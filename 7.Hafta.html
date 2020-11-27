@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>7.Hafta</title>
+<meta charset="utf-8">
+<meta name="description" content="Bu sayfada tablolar,listeler ve özelliklerinden bahsedilmektedir.">
+<meta name="keywords" content="HTML,HTML5,table,tablo,liste,Web Tasarım">
+<meta name="viewport" content="width=device-width ,initial-scale=1.0">
+<script type="text/javascript"></script>
+<noscript>Tarayıcınızda script kullanılamadığı için içerik düzgün olarak görüntülenememektedir.</noscript>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<style>
+    p{
+        font-family: Comic Sans MS; 
+    }
+    table,td,th{
+        border:  1px solid white;color: white;
+    }
+    li{
+        display:list-item ; font-size: 22px;
+        color: aliceblue; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: normal;
+    }
+    
+</style>
+</head>
+<body bgcolor="black">
+    <p><a href="index.html"><div id="gecis" style="margin-left: 30px;position: relative; top: 70px; ">
+        <img src="images/home.png" width="50px"height=50>
+        </div></a></p>   
+<p id="prf1" style="margin-top:20px ;margin-left: 600px;"><font color=orange size=6>7. HAFTA </font>><hr color="orange"></p>
+<p style="margin-top: 80px;margin-left:520px;"><font  color=orange size="5">Table Etiketi ve Özellikleri</font></p>
+<p style="margin-left:280px;"><font  color=white size=3>Table etiketi tablo oluşturmamızı sağlar.Tr(table row)etiketi tablo satırı oluşturmayı sağlar.Td(table data cell) hücre oluşturmayı sağlar.<br/>Th(table header cell) ise başlık hücresi oluşturmayı sağlar. </font></p>
+<br/>
+<div style="margin-left: 550px;">
+    <img src="images/table.PNG"width="400px"height="700" >
+</div>
+<br/><br/>
+<br/>
+<table style="margin-left: 550px;width: 400px; height: 300px;">
+<thead>
+    <th>Aylar</th>
+<th>Harcama Tutarı(TL)</th>
+
+</thead>
+     <tr>
+        <td>Haziran</td>
+        <td>12000</td>
+    </tr>
+<tr>
+    <td>Temmuz</td>
+        <td>13000</td>
+</tr>
+<tr>
+    <td>Ağustos</td>
+    <td>15000</td>
+</tr>
+<tr>
+    <td>Eylül</td>
+    <td>30000</td>
+</tr>
+<tfoot>
+    <tr>
+        <td>Toplam</td>
+        <td>70000</td>
+    </tr>
+</tfoot>
+</table>
+<br/>
+<p style="margin-left:630px;"><font  color=orange size=5>Colspan ve Rowspan</font></p>
+<p style="margin-left:410px;"><font  color=white size=3>Colspan hücrenin kapladığı alanı ayarlamamızı ,rowspan ise satırın kapladığı alanı ayarlamamızı sağlar.</font></p>
+<br/><br/>
+<table style="border: 1px solid white;margin-left: 550px;text-align: center; width: 400px; height: 300px;">
+    <tr>
+        <td colspan="5" rowspan="1">Cells</td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td> 
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+    </tr>
+</table>
+<br/>
+<p style="margin-left:650px;"><font  color=orange size=5>Ul,Ol,Li Etiketleri</font></p>
+<p style="margin-left:480px;"><font  color=white size=3>Ol ile düzenli liste , Ul ile düzensiz liste oluşturulabilir.Li ise maddelemeyi sağlar.</font></p>
+<br/>
+<div style="margin-left: 500px;width: 400px;height: 100px;">
+    <img src="images/listozkod.PNG">
+</div>
+<br/>
+<div style="margin-left: 900px;">
+<ol style="color: white;">
+    <li>
+        Türkiye
+       <ul>
+       <li>İstanbul</li>
+       <li>Ankara</li>
+       <li>Mersin</li>
+        </ul>
+    </li>
+        <li>
+        Azerbaycan
+        <ul>
+        <li>Bakü</li>
+        <li>Nahçıvan</li>
+        <li>Hankendi</li>
+        </ul>
+        </li>
+        <li>
+        Japonya
+        <ul>
+            <li>Tokyo</li>
+            <li>Kyoto</li>
+            <li>Hiroşima</li>
+        </ul>   
+        </li>
+</ol>
+</div>
+<br/><br><br><br><br><br><br><br>
+<div id="altdiv"style="margin-left:737px;margin-bottom:0px">
+    <a  href="#prf1" style="color:white;">Başa Dön</a>
+</body>
+</html>
