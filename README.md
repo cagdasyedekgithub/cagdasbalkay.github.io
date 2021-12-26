@@ -1,2 +1,2 @@
 # cagdasbalkay.github.io
-ilk sitelerim
+ilk websitesi denemem.
